@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Store</title>
 </head>
-<body id="bckg">
+<body style="background-color: #eee;">
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
         <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -36,22 +36,97 @@
                 </ul>
             </div>
         </div>
-    </nav>  
-    <h2 id="tmpt">Tempat Membeli</h2>
-    <img src="mac_ipad_ipod_hero.png" class="pngg">
-    <p id="ratusan">Ratusan penjual Apple dapat membantu Anda<br>
+    </nav> 
+    <h2 id="tmpt" class="align-content-center">Tempat Membeli</h2><br>
+     <br><br>
+    <div class="container ancel pt-5">
+    <div class="container" style="top: 10%;"><img src="mac_ipad_ipod_hero.png" class="img-fluid align-items-center mx-auto d-block"></div>
+    <p id="ratusan" class="text-center">Ratusan penjual Apple dapat membantu Anda<br>
         mendapatkan iPhone, Apple Watch, iPad atau<br> Mac untuk Anda.</p>
-        <p><input type="text" value="" placeholder="Alamat,Kota atau Kode Pos" style="width: 20%; height: 1%; padding: 10px; position: absolute; margin-left: 40%;" required></p>
+        <p><input type="text" value="" placeholder="Alamat,Kota atau Kode Pos" style="width: 35%; height: 0.5%; padding: 1px; position: relative; margin-left: 33.5%;" class="form-group" required></p>
         <p>
-            <select id="agama" style="width: 275px; margin-left: 40%; margin-top: 4%;">
-                <option value="" selected>Semua Produk</option>
-                <option value="">Iphone</option>
-                <option value="">Ipad</option>
-                <option value="">Mac</option>
-                <option value="">Ipod</option>
-                <option value="">Apple Tv</option>
+            <select id="agama" class="form-control" style="width: 35%; height: 0.5%; padding: 1px; position: relative; margin-left: 33.5%; margin-top: 0%;" class="form-group">
+                   <option value="" selected>Semua Produk</option>
+                   <option value="">Iphone</option>
+                   <option value="">Ipad</option>
+                   <option value="">Mac</option>
+                   <option value="">Ipod</option>
+                   <option value="">Apple Tv</option>
             </select>
-            <input type="submit" value="submit" style="width: 10%; height: 0.4%; padding: 10px; position: absolute; margin-top: 3.9%; text-align: center; color: black; background-color: aliceblue;"
+            <button type="button" class="btn btn-secondary btn-sm" style="height: 0.2%;">mulai</button>
         </p>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <h4>Shop and Learn</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">Watch</a></li>
+                        <li><a href="#">TV</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>Apple Store</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Find a Store</a></li>
+                        <li><a href="#">Genius Bar</a></li>
+                        <li><a href="#">Today at Apple</a></li>
+                        <li><a href="#">Apple Camp</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>For Education</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Apple and Education</a></li>
+                        <li><a href="#">Shop for College</a></li>
+                    </ul>
+                    <h4>For Business</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Apple and Business</a></li>
+                        <li><a href="#">Shop for Business</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>Account</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Manage Your Apple ID</a></li>
+                        <li><a href="#">Apple Store Account</a></li>
+                        <li><a href="#">iCloud.com</a></li>
+                    </ul>
+                    <h4>Apple Values</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Education</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>More ways to shop: Visit an&nbsp;<a href="https://www.apple.com/retail/">Apple Store</a>,&nbsp;call 1-800-MY-APPLE, or&nbsp;<a href="https://locate.apple.com/">find a reseller</a>.</p>
+            <hr>
+            <div class="footer-legal">
+                <div class="float-md-right region"><a href="#"><img src="united-states-flag.png">United States</a></div>
+                <div class="d-inline-block copyright">
+                    <p class="d-inline-block">Copyright © 2020. All rights reserved.<br></p>
+                </div>
+                <div class="d-inline-block legal-links">
+                    <div class="d-inline-block item">
+                        <h5>Privacy Policy</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>Terms of Use</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>Legal</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>License</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

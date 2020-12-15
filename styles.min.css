@@ -351,30 +351,36 @@ input[type=email] {
     font-size: large;
 } */
 /*----------------------------------------------------- CSS SHOP -------------------------------------------------------*/
-/* #bckg body{
-    background-image: url('applebackground.jpg');
+#bckg body{
+    background-color: white;
     background-repeat: no-repeat;
-  } */
+  }
 #tmpt {
-    color: white;
+    color: grey;
     position: absolute;
-    margin-left: 45%;
-    margin-top: 3%;
+    margin-left: 7.5%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .pngg {
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: 10%;
+    /* font-family: sans-serif; */
 }
 #ratusan {
-    color: white;
+    color: rgb(121, 121, 121)smoke;
     text-align: center;
     margin-left: 2%;
     margin-top: 3%;
     font-size: larger;
+
 }
 .kevs {
     width: 1%;
     padding: 1px 1px;
     margin: 8px 0;
     box-sizing: border-box;
+}
+.ancel {
+    background-color:white;
 }
